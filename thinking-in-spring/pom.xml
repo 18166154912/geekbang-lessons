@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-
         <module>spring-bean-demo</module>
+        <module>ioc-container-spring</module>
     </modules>
 
     <properties>
