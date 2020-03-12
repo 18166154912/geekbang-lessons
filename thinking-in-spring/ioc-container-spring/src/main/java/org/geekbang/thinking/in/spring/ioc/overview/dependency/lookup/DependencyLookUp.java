@@ -28,8 +28,14 @@ public class DependencyLookUp {
         lookCollectionUpType(beanFactory);
         // 通过注解查找
         lookupAnnotationType(beanFactory);
+        User user = new User();
+
     }
 
+    /**
+     * 注解查询 Annotation
+     * @param beanFactory
+     */
     private static void lookupAnnotationType(BeanFactory beanFactory) {
         if(beanFactory instanceof ListableBeanFactory){
             ListableBeanFactory listableBeanFactory = (ListableBeanFactory)beanFactory;

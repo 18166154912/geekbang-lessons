@@ -1,5 +1,8 @@
 package org.geekbang.thinking.in.spring.ioc.overview.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * 用户类
  *
@@ -7,26 +10,12 @@ package org.geekbang.thinking.in.spring.ioc.overview.domain;
  * @date: 2020/2/12 22:01
  * @description: 1.0
  */
+@Getter
+@Setter
 public class User {
 
     private Integer id;
     private String name;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     @Override
     public String toString() {
