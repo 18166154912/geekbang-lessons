@@ -25,7 +25,6 @@ public class BeanDefinitionCreationDemo {
         AbstractBeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
         // beanDefinition并非Bean的终态 可以自定义修改
 
-
         // 2: 通过AbstractBeanDefinition派生
         GenericBeanDefinition genericBeanDefinition = new GenericBeanDefinition();
         genericBeanDefinition.setBeanClass(User.class);
@@ -36,9 +35,6 @@ public class BeanDefinitionCreationDemo {
         propertyValues.add("age", "18")
                 .add("name", "晴天");
         genericBeanDefinition.setPropertyValues(propertyValues);
-
-
     }
-
 
 }
