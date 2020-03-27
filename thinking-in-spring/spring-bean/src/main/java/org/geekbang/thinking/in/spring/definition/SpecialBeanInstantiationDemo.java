@@ -2,8 +2,6 @@ package org.geekbang.thinking.in.spring.definition;
 
 import org.geekbang.thinking.in.spring.factory.DefaultUserFactory;
 import org.geekbang.thinking.in.spring.factory.UserFactory;
-import org.geekbang.thinking.in.spring.ioc.overview.domain.User;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
