@@ -36,6 +36,7 @@ public class AnnotationBeanDefinitionDemo {
         Config config = beansOfType.get("annotationBeanDefinitionDemo.Config");
         System.out.println(config.user());
 
+
         // 显示的 关闭上下文
         applicationContext.close();
 

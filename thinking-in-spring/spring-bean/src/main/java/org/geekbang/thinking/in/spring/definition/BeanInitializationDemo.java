@@ -21,10 +21,11 @@ public class BeanInitializationDemo {
         // 注册
         applicationContext.register(BeanInitializationDemo.class);
         applicationContext.refresh();
-
+        System.out.println("Spring 上下文启动中...");
 
         // 依赖查找
         applicationContext.getBean(UserFactory.class);
+        System.out.println("Spring 上下文准备关闭...");
         applicationContext.close();
     }
 
