@@ -1,15 +1,9 @@
 package org.geekbang.thinking.in.spring.ioc.overview.dependency.injection;
 
-import org.geekbang.thinking.in.spring.ioc.overview.domain.Super;
-import org.geekbang.thinking.in.spring.ioc.overview.domain.User;
 import org.geekbang.thinking.in.spring.ioc.overview.repository.UserRepository;
 import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.util.Map;
 
 /**
  * @author: 晴天
