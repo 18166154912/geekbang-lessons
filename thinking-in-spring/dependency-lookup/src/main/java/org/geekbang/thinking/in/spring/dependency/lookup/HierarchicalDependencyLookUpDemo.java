@@ -14,7 +14,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @date: 2020/4/13 22:25
  * @description: 1.0
  */
-public class hierarchicalDependencyLookUpDemo {
+public class HierarchicalDependencyLookUpDemo {
     public static void main(String[] args) {
         // 创建 BeanFactory 容器
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
