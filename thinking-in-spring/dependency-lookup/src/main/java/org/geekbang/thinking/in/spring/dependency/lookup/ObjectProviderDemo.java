@@ -1,14 +1,12 @@
 package org.geekbang.thinking.in.spring.dependency.lookup;
 
 import org.geekbang.thinking.in.spring.ioc.overview.domain.User;
-import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
 
 import java.security.Provider;
-import java.util.Map;
 
 /**
  * 通过 {@link Provider} 进行依赖查找

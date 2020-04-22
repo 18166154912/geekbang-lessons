@@ -21,7 +21,7 @@ public class NoUniqueBeanDefinitionExceptionDemo {
             applicationContext.getBean(String.class);
         } catch (NoUniqueBeanDefinitionException e) {
             System.err.printf("spring 应用上下文存在%d个 %s 类型的 bean 具体原因:%s%n",
-                    e.getNumberOfBeansFound(),
+            e.getNumberOfBeansFound(),
                     String.class.getName(),
                     e.getMessage());
         }
